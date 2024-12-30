@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0; //magin 초기화
+  padding: 0; //magin 초기화
+  height: 100%; /* 화면 전체 높이를 100%로 설정 */
+  width: 100%; /* 화면 전체 너비를 100%로 설정 */
+  overflow: hidden; /* 화면을 넘는 요소를 숨깁니다. */
+}
+.appContainer {
+  margin: 0; //magin 초기화
+  padding: 0; //magin 초기화
+  height: 100vh; /* 화면 전체 높이를 100%로 설정 */
+  width: 100vw; /* 화면 전체 너비를 100%로 설정 */
+  overflow: hidden; /* 화면을 넘는 요소를 숨깁니다. */
+}
+.header {
+  height: 10%;
+  width: 100%;
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+}
+main {
+  height: 80%;
+  width: 100%;
+  background-image: url("./assets/movietheater.png"); /* 배경 이미지 추가 */
+  background-size: cover; /* 배경 이미지를 화면에 맞게 확장 */
+  background-position: center; /* 배경 이미지를 중앙에 배치 */
+  background-repeat: no-repeat; /* 배경 이미지 반복을 방지 */
+  padding: 20px; /* 내부 여백 추가 */
+  color: white;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 5px; /* 둥근 모서리 */
+  margin-left: 10px;
+  outline: none;
+}
+.date {
+  font-size: 20px;
+}
+
+footer {
+  height: 10%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+.footerContent {
+  color: white;
+  margin: 0px auto;
+}
